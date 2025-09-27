@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 # -----------------------------
 # Load and preprocess dataset
 # -----------------------------
-df = pd.read_csv(r"C:\Users\Dell\OneDrive\Desktop\ML-Chatbot\Titanic-Dataset.csv")
+df = pd.read_csv("Titanic-Dataset.csv")
 
 # Handle missing values
 df['Age'] = df['Age'].fillna(df['Age'].median())
